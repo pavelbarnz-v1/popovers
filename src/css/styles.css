@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* css for popover */
+
+.off {
+    display: none;
+}
+
+.popover {
+    width: 200px;
+    font-family: "comic sans ms";
+    position: absolute;
+}
+
+.popover-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    box-sizing: border-box;
+    height: 25px;
+
+    padding: 2px;
+    font-size: 16px;
+    background-color: rgb(231, 231, 231);
+}
+
+.popover-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+    font-size: 12px;
+
+    border: 1px solid black;
+    border-top: none;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    box-sizing: border-box;
+}
+
+/* css for field */
+
+.wrapper {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.field {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.toggle-popover {
+    width: 150px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+    background-color: lightgrey;
+}
